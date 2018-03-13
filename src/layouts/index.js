@@ -25,6 +25,19 @@ const TemplateWrapper = ({ children }) => (
         href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab:400,700|Inconsolata:400,700"
         rel="stylesheet"
       />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-115665769-1"
+      />
+      <script>
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115665769-1');
+      `}
+      </script>
     </Helmet>
     <div className="container">{children()}</div>
   </div>
