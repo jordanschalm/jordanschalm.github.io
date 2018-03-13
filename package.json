@@ -12,7 +12,7 @@
     "react-markdown": "^3.3.0"
   },
   "keywords": ["jordan schalm", "personal site", "portfolio"],
-  "license": "NONE",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -b master",
