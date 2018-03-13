@@ -1,0 +1,30 @@
+.Project {
+  margin-bottom: 1.75rem;
+}
+
+.Project__header {
+  margin-bottom: 0.25rem;
+}
+
+.Project__emoji {
+  margin-right: 0.25rem;
+}
+
+.Project__name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(49, 49, 49);
+}
+
+.Project__dot {
+  font-size: 0.75rem;
+}
+
+.Project__subheader {
+  font-size: 1rem;
+  color: rgb(147, 147, 147);
+}
+
+.Project__description {
+  margin-bottom: 0.5rem;
+}
