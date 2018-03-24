@@ -656,7 +656,7 @@ textarea {
   margin: 0.25rem 0;
   padding: 0.25rem;
   border-color: rgba(49, 49, 49, 0.1);
-  border-width: 0.5px;
+  border-width: 1px;
   border-style: solid;
 }
 
@@ -674,8 +674,14 @@ button {
   color: rgb(88, 143, 97);
   font-weight: 700;
   border-color: rgb(88, 143, 97);
+  border-style: solid;
+  border-width: 1px;
 
   transition: background-color 0.25s;
+}
+
+button:enabled {
+  background-color: white;
 }
 
 button:hover {
