@@ -14,11 +14,17 @@ export default {
         date: {
           start: Moment('2017-07', MONTH_F),
         },
-        description: `CryptoKitties is a game about cats built to introduce normal
-          people to blockchain technology. I helped prototype early versions
+        description: `CryptoKitties is one of the world's first blockchain games.
+          It has generated over $23M in P2P sales and has been covered in the 
+          [BBC](http://www.bbc.com/news/technology-42237162),
+          [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
+          [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
+          and [many others](https://cryptokitties.co/press).
+          I helped prototype early versions
           of the game and helped to model and develop the cat population
-          and genetics system. Later, I built the smart contracts for the
-          auction system of the final product and helped make our ownership
+          and genetics system. Later, I built the 
+          [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
+          for the auction system of the final product and helped make our ownership
           contract [ERC721](https://github.com/ethereum/eips/issues/721)-compliant.`,
       },
       {
@@ -45,10 +51,10 @@ export default {
         emoji: '📽',
         date: Moment('2018-03-03', DATE_F),
         description: `TEDxUBC is an independently organized TED event. I gave
-          a talk titled 'Cat Ownership in the 21st Century' about the story of
-          CryptoKitties and blockchains. I discussed how blockchain technology
-          can be used to solve problems of digital ownership, and its potential
-          applications almost everywhere we use computers to store data.`,
+          a talk titled _Cat Ownership in the 21st Century_ about the story of
+          CryptoKitties. I discussed how blockchain technology can be used to
+          solve problems of digital ownership, and its potential applications
+          almost everywhere we use computers to store data.`,
       },
     ],
     older: [
@@ -104,7 +110,7 @@ export default {
         url: 'https://eightsolutions.com',
         emoji: '📈',
         description: `I worked on the [Cumul8](https://cumul8.com/) project of
-          Eight solutions during an intership between years of my Bachelors
+          Eight Solutions during an intership between years of my
           degree. There I worked on building custom data visualization
           dashboards and developing a system for automatically summarizing and
           finding potentially interesting patterns in arbitrary datasets.`,
