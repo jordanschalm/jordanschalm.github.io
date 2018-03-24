@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.Contact__form > textarea {
+  resize: vertical;
+}
+
 .Contact__invalid {
   border-color: rgb(126, 51, 45);
 }
