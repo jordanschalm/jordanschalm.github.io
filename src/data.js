@@ -59,13 +59,28 @@ export default {
     ],
     older: [
       {
+        name: 'ETHWaterloo',
+        subheader: 'Hackathon',
+        url: 'https://ethwaterloo.com/',
+        emoji: '🔨',
+        date: Moment('2017-10-15', DATE_F),
+        description: `ETHWaterloo was the world's largest Ethereum hackathon,
+          with over 400 participants. My team 
+          [won](https://www.newswire.ca/news-releases/cats-invade-worlds-largest-ethereum-hackathon-651263343.html)
+          with [Rufflet](https://rufflet.cryptokitties.co/), a Mixpanel-style
+          analytics tool for smart contracts. At the same time we were
+          polishing off the beta version of CryptoKitties and releasing it for
+          the hackers at ETHWaterloo to 
+          [play with](https://motherboard.vice.com/en_us/article/bj78jv/cryptokitties-blockchain-cats-axiom-zen-game).`,
+      },
+      {
         name: 'Rocket',
         subheader: 'Bleep bloop',
         url: 'https://github.com/ubclaunchpad/rocket',
         emoji: '🤖',
         date: {
-          start: Moment('2017-06'),
-          end: Moment('2017-08'),
+          start: Moment('2017-06', MONTH_F),
+          end: Moment('2017-08', MONTH_F),
         },
         description: `Rocket is a Slack bot I built to improve the process of
           onboarding new team members and managing teams at
@@ -81,8 +96,8 @@ export default {
         url: 'https://github.com/ubclaunchpad/cumulus',
         emoji: '💸',
         date: {
-          start: Moment('2017-05'),
-          end: Moment('2017-08'),
+          start: Moment('2017-05', MONTH_F),
+          end: Moment('2017-08', MONTH_F),
         },
         description: `Cumulus is an open-source cryptocurrency implementation
           modelled after Bitcoin and Ethereum that I built with a group of
