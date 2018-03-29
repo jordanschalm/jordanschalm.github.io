@@ -20,12 +20,10 @@ export default {
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
           [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
           and [many others](https://cryptokitties.co/press).
-          I helped prototype early versions
-          of the game and helped to model and develop the cat population
-          and genetics system. Later, I built the 
-          [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
-          for the auction system of the final product and helped make our ownership
-          contract [ERC721](https://github.com/ethereum/eips/issues/721)-compliant.`,
+          I prototyped early versions of the game and helped to model and
+          develop cat population mechanics and the genetics system. Later, I
+          built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
+          for the auction system of the final product.`,
       },
       {
         name: 'UBC Launch Pad',
@@ -38,13 +36,12 @@ export default {
         description: `Launch Pad is UBC's largest student-run software 
           engineering club. Members develop their engineering and design skills
           by building projects from conception to release in small, focussed
-          teams. We also host workshops for the broader UBC tech community
-          focussed on technical topics and career development. For the past
-          year as Co-President, I worked with our exec team to improve
-          development processes to help teams build cool stuff faster.`,
+          teams. For the past year as Co-President, I worked with our exec team
+          to improve development processes and make it easier to build cool
+          stuff faster.`,
       },
       {
-        name: 'TEDxUBC 2018',
+        name: 'TEDxUBC',
         subheader: 'Talking about cats',
         url: 'http://blogs.ubc.ca/tedxubc/',
         emoji: '📽',
@@ -81,13 +78,12 @@ export default {
           start: Moment('2017-06', MONTH_F),
           end: Moment('2017-08', MONTH_F),
         },
-        description: `Rocket is a Slack bot I built to improve the process of
-          onboarding new team members and managing teams at
-          [Launch Pad](http://ubclaunchpad.com). 
-          When a new member joins, they add themselves to the system by talking
-          to Rocket in Slack. From there, Rocket automatically updates our 
-          website roster, adds them to our GitHub organization, and allows team
-          leads to manage their access to our various GitHub teams.`,
+        description: `Rocket is a Slack bot I built to improve onboading and
+          project management at [Launch Pad](http://ubclaunchpad.com). 
+          New members add their information by talking to Rocket in Slack.
+          From there, Rocket automatically updates our website roster, adds
+          them to our GitHub organization, and allows team leads to manage
+          access to our various resources.`,
       },
       {
         name: 'Cumulus',
