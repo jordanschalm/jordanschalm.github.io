@@ -151,6 +151,7 @@ export default {
         date: Moment('2018-03-24', DATE_F),
         url:
           'https://docs.google.com/presentation/d/1m_QU1NWzE0yPk7wVUEqBBn_FCTvB4kt52XUupjMihEw/edit?usp=sharing',
+        emoji: '⛓',
         description: `I gave a presentation at UBC Launch Pad Tech Talks about
           the technical details of blockchains.`,
       },
@@ -159,6 +160,7 @@ export default {
         date: Moment('2017-11-04', DATE_F),
         url:
           'https://docs.google.com/presentation/d/1h8fB5PGuWnmV33jGY3WWFz9SIDyC9Kx8gVhvqvzBdp8/edit?usp=sharing',
+        emoji: '☁️',
         description: `The Cumulus team gave a presentation detailing the design
           of our cryptocurrency implementation to the UBC Blockchain Club.`,
       },
@@ -167,6 +169,7 @@ export default {
         date: Moment('2017-03-27', DATE_F),
         url:
           'https://www.facebook.com/events/676299582548975/permalink/679400582238875/',
+        emoji: '⚛️',
         description: `I presented a technical overview of React, including how
           to target different platforms with Electron and React Native.`,
       },
@@ -175,6 +178,7 @@ export default {
         date: Moment('2016-03-04', DATE_F),
         url:
           'https://docs.google.com/presentation/d/1eHXmA_mMeKXemRjTf7ty3h7HCDNUpbJrDxvKmvvZwh0/edit?usp=sharing',
+        emoji: '🕸',
         description: `I presented an interactive workshop at BizHacks 2016
           introducing non-technical students to modern web development tools.`,
       },

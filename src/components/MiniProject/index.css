@@ -1,0 +1,12 @@
+.MiniProject {
+  margin-bottom: 0.25rem;
+}
+
+.MiniProject__emoji {
+  margin-right: 0.1rem;
+}
+
+.MiniProject__name {
+  color: rgb(49, 49, 49);
+  font-weight: 400;
+}

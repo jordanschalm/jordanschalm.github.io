@@ -2,6 +2,7 @@ import React from 'react'
 import Terminal from './../components/Terminal'
 import Preface from './../components/Preface'
 import Header from './../components/Header'
+import MiniProjectList from './../components/MiniProjectList'
 import Project from './../components/Project'
 import Contact from './../components/Contact'
 
@@ -19,6 +20,7 @@ const HomePage = () => (
     {data.projects.older.map(project => (
       <Project key={project.name} {...project} />
     ))}
+    <MiniProjectList projects={data.projects.minor} />
     <Header title="Contact" />
     <Contact />
   </div>
