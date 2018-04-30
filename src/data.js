@@ -15,30 +15,34 @@ export default {
           start: Moment('2017-07', MONTH_F),
         },
         description: `CryptoKitties is one of the world's first blockchain games.
-          It has generated over $23M in P2P sales and has been covered in the 
+          It has generated over $24M in P2P sales and has been covered in the 
           [BBC](http://www.bbc.com/news/technology-42237162),
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
           [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
           and [many others](https://cryptokitties.co/press).
           I prototyped early versions of the game and helped to model and
-          develop cat population mechanics and the genetics system. Later, I
+          develop cat population mechanics and the genetics system. I also
           built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
           for the auction system of the final product.`,
       },
       {
         name: 'UBC Launch Pad',
         subheader: "Makin' techs",
-        url: 'http://ubclaunchpad.com',
+        url: 'https://ubclaunchpad.com',
         emoji: '🚀',
         date: {
           start: Moment('2015-08', MONTH_F),
+          end: Moment('2018-05', MONTH_F),
         },
-        description: `Launch Pad is UBC's largest student-run software 
-          engineering club. Members develop their engineering and design skills
+        description: `Launch Pad is [UBC's](https://www.ubc.ca/) largest
+          student-run software engineering club. Members develop their skills
           by building projects from conception to release in small, focussed
-          teams. For the past year as Co-President, I worked with our exec team
-          to improve development processes and make it easier to build cool
-          stuff faster.`,
+          teams. I worked with our exec team to incorporate designers into
+          teams, streamline recruitment and onboarding, and standardize
+          development processes. Some cool projects we've built since then include
+          a [speaker diarization API](https://github.com/ubclaunchpad/minutes), 
+          a [self-hosted CD/CI tool](https://github.com/ubclaunchpad/inertia),
+          and a [multi-user collaborative Etch-a-Sketch](https://github.com/ubclaunchpad/etch.io).`,
       },
       {
         name: 'TEDxUBC',
@@ -79,7 +83,7 @@ export default {
           end: Moment('2017-08', MONTH_F),
         },
         description: `Rocket is a Slack bot I built to improve onboading and
-          project management at [Launch Pad](http://ubclaunchpad.com). 
+          project management at [Launch Pad](https://ubclaunchpad.com). 
           New members add their information by talking to Rocket in Slack.
           From there, Rocket automatically updates our website roster, adds
           them to our GitHub organization, and allows team leads to manage
@@ -96,13 +100,13 @@ export default {
         },
         description: `Cumulus is an open-source cryptocurrency implementation
           modelled after Bitcoin and Ethereum that I built with a group of
-          friends during the summer of 2017. Everything from the blockchain,
-          peer-to-peer networking, and consensus was built from scratch (which
-          was a lot of fun).`,
+          friends at [Launch Pad](https://ubclaunchpad.com) during the summer
+          of 2017. Everything from the blockchain, peer-to-peer networking, and
+          consensus was built from scratch (which was a lot of fun).`,
       },
       {
         name: 'Guerrilla',
-        subheader: 'Contributor',
+        subheader: 'Open Source',
         url: 'https://github.com/flashmob/go-guerrilla',
         emoji: '✉️',
         description: `Guerrilla is an open-source, extensible SMTP mail server
@@ -126,8 +130,8 @@ export default {
           finding potentially interesting patterns in arbitrary datasets.`,
       },
       {
-        name: 'Ubyssey',
-        subheader: 'Putting news online',
+        name: 'The Ubyssey',
+        subheader: 'Since 1918',
         date: {
           start: Moment('2015-08', MONTH_F),
           end: Moment('2015-12', MONTH_F),
