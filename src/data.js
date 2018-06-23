@@ -23,8 +23,23 @@ export default {
           I prototyped early versions of the game and helped to model and
           develop cat population mechanics and the genetics system. I also
           built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
-          for the auction system of the final product.`,
+          for the auction system of the final game.`,
       },
+      {
+        name: 'Axiom Zen',
+        subheader: 'Software Engineer',
+        url: 'https://axiomzen.co',
+        emoji: '👨‍💻',
+        date: {
+          start: Moment('2017-05', MONTH_F),
+        },
+        description: `Axiom Zen is a venture studio based in Vancouver, Canada.
+          I work primarily with blockchain initiatives like CryptoKitties and
+          investigating scaling solutions, with the goal of making blockchain
+          technology more accessible and fun.`,
+      },
+    ],
+    older: [
       {
         name: 'UBC Launch Pad',
         subheader: "Makin' techs",
@@ -42,12 +57,12 @@ export default {
           development processes. Some cool projects we've built since then include
           a [speaker diarization API](https://github.com/ubclaunchpad/minutes), 
           a [self-hosted CD/CI tool](https://github.com/ubclaunchpad/inertia),
-          and a [multi-user collaborative Etch-a-Sketch](https://github.com/ubclaunchpad/etch.io).`,
+          and a [collaborative Etch-a-Sketch](https://github.com/ubclaunchpad/etch.io).`,
       },
       {
         name: 'TEDxUBC',
         subheader: 'Talking about cats',
-        url: 'http://blogs.ubc.ca/tedxubc/',
+        url: 'https://www.youtube.com/watch?v=29W67cSPnRc',
         emoji: '📽',
         date: Moment('2018-03-03', DATE_F),
         description: `TEDxUBC is an independently organized TED event. I gave
@@ -56,8 +71,6 @@ export default {
           solve problems of digital ownership, and its potential applications
           almost everywhere we use computers to store data.`,
       },
-    ],
-    older: [
       {
         name: 'ETHWaterloo',
         subheader: 'Hackathon',
