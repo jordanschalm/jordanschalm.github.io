@@ -41,6 +41,18 @@ export default {
     ],
     older: [
       {
+        name: 'BASc Computer Engineering',
+        subheader: 'Learning!',
+        url: 'https://ubc.ca',
+        emoji: '🎓',
+        date: {
+          start: Moment('2013-09', MONTH_F),
+          end: Moment('2018-04', MONTH_F),
+        },
+        description: `In May 2018, I completed a Bachelors of Applied Science
+          in Computer Engineering at the University of British Columbia.`,
+      },
+      {
         name: 'UBC Launch Pad',
         subheader: "Makin' techs",
         url: 'https://ubclaunchpad.com',

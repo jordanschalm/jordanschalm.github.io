@@ -16,7 +16,7 @@
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "lint": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
