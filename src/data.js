@@ -15,7 +15,7 @@ export default {
           start: Moment('2017-07', MONTH_F),
         },
         description: `CryptoKitties is one of the world's first blockchain games.
-          It has generated over $24M in P2P sales and has been covered in the 
+          It has generated over $25M in P2P sales and has been covered in the 
           [BBC](http://www.bbc.com/news/technology-42237162),
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
           [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
