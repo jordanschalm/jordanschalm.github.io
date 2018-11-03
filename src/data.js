@@ -7,8 +7,22 @@ export default {
   projects: {
     current: [
       {
+        name: 'Dapper Labs',
+        subheader: 'Senior Software Engineer',
+        url: 'https://dapperlabs.com',
+        emoji: '🦄',
+        date: {
+          start: Moment('2018-04', MONTH_F),
+        },
+        description: `Dapper Labs uses the power of play to deliver
+          blockchain-based experiences that are made for you and ready for the
+          real world. We aim to bring the benefits of decentralization to the
+          first billion consumers through the power of play, fairness, and true
+          ownership. `,
+      },
+      {
         name: 'CryptoKitties',
-        subheader: 'Cofounder',
+        subheader: 'Co-Creator',
         url: 'https://cryptokitties.co',
         emoji: '🐈',
         date: {
@@ -25,6 +39,8 @@ export default {
           built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) 
           for the auction system of the final game.`,
       },
+    ],
+    older: [
       {
         name: 'Axiom Zen',
         subheader: 'Software Engineer',
@@ -32,14 +48,13 @@ export default {
         emoji: '👨‍💻',
         date: {
           start: Moment('2017-05', MONTH_F),
+          end: Moment('2018-04', MONTH_F),
         },
         description: `Axiom Zen is a venture studio based in Vancouver, Canada.
-          I work primarily with blockchain initiatives like CryptoKitties and
+          I worked primarily with blockchain initiatives like CryptoKitties and
           investigating scaling solutions, with the goal of making blockchain
           technology more accessible and fun.`,
       },
-    ],
-    older: [
       {
         name: 'BASc Computer Engineering',
         subheader: 'Learning!',
@@ -62,13 +77,12 @@ export default {
           end: Moment('2018-05', MONTH_F),
         },
         description: `Launch Pad is [UBC's](https://www.ubc.ca/) largest
-          student-run software engineering club. Members develop their skills
-          by building projects from conception to release in small, focussed
-          teams. I worked with our exec team to incorporate designers into
-          teams, streamline recruitment and onboarding, and standardize
-          development processes. Some cool projects we've built since then include
-          a [speaker diarization API](https://github.com/ubclaunchpad/minutes), 
-          a [self-hosted CD/CI tool](https://github.com/ubclaunchpad/inertia),
+          student-run software engineering club. I led the executive team to 
+          standardize engineering process and streamline recruitment in service
+          of increasing the organization's ability to support more members and
+          enabling those members to build skills more quickly. Some cool
+          projects we've built since then include a [speaker diarization API](https://github.com/ubclaunchpad/minutes), 
+          a [self-hosted continuous deployment tool](https://github.com/ubclaunchpad/inertia),
           and a [collaborative Etch-a-Sketch](https://github.com/ubclaunchpad/etch.io).`,
       },
       {
