@@ -28,7 +28,7 @@ export default {
         date: {
           start: Moment('2017-07', MONTH_F),
         },
-        description: `CryptoKitties is one of the world's first blockchain games.
+        description: `CryptoKitties is the world's most successful blockchain game.
           It has generated over $25M in P2P sales and has been covered in the 
           [BBC](http://www.bbc.com/news/technology-42237162),
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
