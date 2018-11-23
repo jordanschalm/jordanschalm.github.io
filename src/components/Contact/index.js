@@ -108,7 +108,7 @@ class Contact extends Component {
     const { email, message } = this.state
 
     this.setState({ submitted: C.EVENTS.IN_PROGESS })
-    fetch(`${C.API_URL}/mail`, {
+    fetch(`${C.MAIL_API_URL}/v1/public/contact`, {
       method: 'POST',
       body: JSON.stringify({
         email: email.value,
