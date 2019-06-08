@@ -10,15 +10,30 @@ export default {
         name: 'Dapper Labs',
         subheader: 'Senior Software Engineer',
         url: 'https://dapperlabs.com',
-        emoji: '🦄',
+        emoji: '🧪',
         date: {
           start: Moment('2018-04', MONTH_F),
         },
         description: `Dapper Labs uses the power of play to deliver
-          blockchain-based experiences that are made for you and ready for the
-          real world. We aim to bring the benefits of decentralization to the
-          first billion consumers through the power of play, fairness, and true
-          ownership.`,
+          blockchain-based experiences that are ready for the real world.
+          We aim to bring the benefits of decentralization to the first 
+          billion consumers through the power of play, fairness, and true
+          ownership. Our products include
+          [CryptoKitties](https://www.cryptokitties.co/),
+          [Dapper](https://www.meetdapper.com/),
+          and [Cheeze Wizards](https://www.cheezewizards.com/).`,
+      },
+      {
+        name: 'Dapper',
+        subheader: 'Blockchain Interface',
+        url: 'https://meetdapper.io',
+        emoji: '🦄',
+        date: {
+          start: Moment('2018-09', MONTH_F),
+        },
+        description: `Dapper is a wallet built using smart contract technology.
+          It makes accessing blockchain experiences easier and more secure by
+          leveraging a unique [smart contract design](https://github.com/dapperlabs/dapper-contracts) that enables fraud prevention, intelligent transaction fee management, and account recovery.`
       },
       {
         name: 'CryptoKitties',
@@ -28,18 +43,34 @@ export default {
         date: {
           start: Moment('2017-07', MONTH_F),
         },
-        description: `CryptoKitties is the world's most successful blockchain game.
-          It has generated over $25M in P2P sales and has been covered in the
+        description: `CryptoKitties is the world's furriest blockchain experience.
+          It defined the [standard for non-fungible tokens](https://www.youtube.com/channel/UCfF9ZO8Ug4xk_AJd4aeT5HA/playlists)
+          and has generated over $25M in P2P sales. I built the
+          [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs)
+          for the P2P auction system of the final game and helped to model kitty
+          population and genetic mechanics. CrypoKitties has been covered in the
           [BBC](http://www.bbc.com/news/technology-42237162),
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
           [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
           and [many others](https://cryptokitties.co/press).
-          I built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs) for
-          the P2P auction system of the final game and helped to model kitty population
-          and genetic mechanics.`,
+        `,
+          
        },
     ],
     older: [
+      {
+        name: 'ETHNewYork',
+        subheader: 'Tech Talk',
+        url: 'TODO',
+        emoji: '🏙',
+        date: Moment('2018-05-18', DATE_F),
+        description: `ETHNewYork is a Ethereum hackathon in Brooklyn, NYC. I presented
+          a tech talk about the open source smart contract architecture underlying
+          [Dapper](http://www.meetdapper.io). I discussed the authorization system, which enables multi-device
+          2FA and arbitrary on-chain or off-chain transaction validation, as well as
+          the recovery system, which enables regaining access to Dapper in the case
+          that all devices are lost or compromised.`
+      },
       {
         name: 'Axiom Zen',
         subheader: 'Software Engineer',
@@ -53,7 +84,7 @@ export default {
           I worked on several projects, including
           [Toby](https://www.gettoby.com/), an indispensable tab-taming Chrome
           extension, and [CryptoKitties](https://cryptokitties.co), the world's
-          most successful blockchain game.`
+          furriest blockchain game.`
       },
       {
         name: 'BASc Computer Engineering',
