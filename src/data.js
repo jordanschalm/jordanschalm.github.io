@@ -61,7 +61,7 @@ export default {
       {
         name: 'ETHNewYork',
         subheader: 'Tech Talk',
-        url: 'TODO',
+        url: 'https://www.youtube.com/watch?v=daRmJrqfHv8',
         emoji: '🏙',
         date: Moment('2018-05-18', DATE_F),
         description: `ETHNewYork is a Ethereum hackathon in Brooklyn, NYC. I presented
