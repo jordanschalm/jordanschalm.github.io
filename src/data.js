@@ -18,22 +18,46 @@ export default {
           blockchain-based experiences that are ready for the real world.
           We aim to bring the benefits of decentralization to the first 
           billion consumers through the power of play, fairness, and true
-          ownership. Our products include
-          [CryptoKitties](https://www.cryptokitties.co/),
-          [Dapper](https://www.meetdapper.com/),
-          and [Cheeze Wizards](https://www.cheezewizards.com/).`,
+          ownership.`,
+      },
+      {
+        name: 'Flow',
+        subheader: 'Open Worlds',
+        url: 'https://withflow.org',
+        emoji: '💦',
+        date: {
+          start: Moment('2019-10'),
+        },
+        description: `Flow is a fast, secure, and developer-friendly blockchain
+          built to support the next generation of games, apps, and digital assets.
+          It implements a multi-node architecture to separate consensus concerns
+          from compute, enabling high performance without sacrificing decentralization.`,
       },
       {
         name: 'Dapper',
-        subheader: 'Blockchain Interface',
+        subheader: 'Smart Contract Wallet',
         url: 'https://meetdapper.io',
-        emoji: '🦄',
+        emoji: '👾',
         date: {
           start: Moment('2018-09', MONTH_F),
+          end: Moment('2019-10', MONTH_F),
         },
         description: `Dapper is a wallet built using smart contract technology.
           It makes accessing blockchain experiences easier and more secure by
-          leveraging a unique [smart contract design](https://github.com/dapperlabs/dapper-contracts) that enables fraud prevention, intelligent transaction fee management, and account recovery.`
+          leveraging a unique [smart contract design](https://medium.com/dapperlabs/designing-dapper-48c50fcfb063) 
+          that enables fraud prevention, intelligent transaction fee management, and account recovery.`
+      },
+    ],
+    older: [
+      {
+        name: 'Designing Dapper',
+        subheader: 'Deep Dive',
+        url: 'https://medium.com/dapperlabs/designing-dapper-48c50fcfb063',
+        emoji: '📖',
+        date: Moment('2019-10-01', DATE_F,),
+        description: `_Designing Dapper_ is a blog post describing the technical decisions
+          that enable many of [Dapper's](https://meetdapper.io) features while improving upon the security of
+          existing wallets.`
       },
       {
         name: 'CryptoKitties',
@@ -42,6 +66,7 @@ export default {
         emoji: '🐈',
         date: {
           start: Moment('2017-07', MONTH_F),
+          end: Moment('2018-09', MONTH_F),
         },
         description: `CryptoKitties is the world's furriest blockchain experience.
           It defined the [standard for non-fungible tokens](https://www.youtube.com/channel/UCfF9ZO8Ug4xk_AJd4aeT5HA/playlists)
@@ -55,9 +80,7 @@ export default {
           and [many others](https://cryptokitties.co/press).
         `,
           
-       },
-    ],
-    older: [
+      },
       {
         name: 'ETHNewYork',
         subheader: 'Tech Talk',
