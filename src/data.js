@@ -223,7 +223,7 @@ export default {
         description: `The Ubyssey is UBC's student newspaper and the largest
           student newspaper in Western Canada. While working there I contributed
           to [Dispatch](https://github.com/ubyssey/dispatch), the open-source 
-          publishing platform that powers[ubyssey.ca](https://ubyssey.ca).`,
+          publishing platform that powers [ubyssey.ca](https://ubyssey.ca).`,
       },
     ],
     minor: [
