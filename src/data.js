@@ -14,11 +14,42 @@ export default {
         date: {
           start: Moment('2018-04', MONTH_F),
         },
-        description: `I work with the [Flow]() blockchain team at Dapper Labs. Previously I
-          helped build [Dapper]() and [CryptoKitties]().`,
+        description: `I work with the Flow blockchain team at Dapper Labs. Previously I
+          helped build Dapper and CryptoKitties.`,
       },
     ],
-    older: []
+    older: [
+      {
+        name: 'Axiom Zen',
+        subheader: 'Software Engineer',
+        url: 'https://axiomzen.co',
+        emoji: '👨‍💻',
+        date: {
+          start: Moment('2017-05', MONTH_F),
+          end: Moment('2018-04', MONTH_F),
+        },
+        description: `Axiom Zen is a venture studio based in Vancouver, Canada.
+          I worked on several projects as an intern, including
+          [Toby](https://www.gettoby.com/), an indispensable tab-taming Chrome
+          extension, and [CryptoKitties](https://cryptokitties.co), the world's
+          furriest blockchain game.`
+      },
+      {
+        name: 'Eight Solutions',
+        subheader: 'Data visualizing',
+        date: {
+          start: Moment('2016-01', MONTH_F),
+          end: Moment('2016-12', MONTH_F),
+        },
+        url: '',
+        emoji: '📈',
+        description: `I worked on the Cumul8 project of Eight Solutions during 
+          an intership between years of my degree. There I helped build custom 
+          data visualization dashboards and prototyped a mobile data analytics
+          tool aiming to make analytics more accessible to individuals and
+          small business.`,
+      },
+    ]
   },
   projects: {
     current: [
@@ -97,33 +128,6 @@ export default {
           that all devices are lost or compromised.`
       },
       {
-        name: 'Axiom Zen',
-        subheader: 'Software Engineer',
-        url: 'https://axiomzen.co',
-        emoji: '👨‍💻',
-        date: {
-          start: Moment('2017-05', MONTH_F),
-          end: Moment('2018-04', MONTH_F),
-        },
-        description: `Axiom Zen is a venture studio based in Vancouver, Canada.
-          I worked on several projects as an intern, including
-          [Toby](https://www.gettoby.com/), an indispensable tab-taming Chrome
-          extension, and [CryptoKitties](https://cryptokitties.co), the world's
-          furriest blockchain game.`
-      },
-      {
-        name: 'Education',
-        subheader: 'we don\'t need no',
-        url: 'https://ubc.ca',
-        emoji: '🎓',
-        date: {
-          start: Moment('2013-09', MONTH_F),
-          end: Moment('2018-04', MONTH_F),
-        },
-        description: `Between 2013-2018, I completed a Bachelors of Applied Science
-          in Computer Engineering at UBC in Vancouver.`,
-      },
-      {
         name: 'UBC Launch Pad',
         subheader: "Makin' techs",
         url: 'https://ubclaunchpad.com',
@@ -133,11 +137,11 @@ export default {
           end: Moment('2018-05', MONTH_F),
         },
         description: `Launch Pad is [UBC's](https://www.ubc.ca/) largest
-          student-run software engineering club. I led the executive team to
-          standardize engineering process and streamline recruitment in service
-          of increasing the organization's ability to support more members and
-          enabling those members to build skills more quickly. Some cool
-          projects we've built since then include a [speaker diarization API](https://github.com/ubclaunchpad/minutes),
+          student-run software engineering club. After spending some time as a member
+          working on several projects, I moved to the executive team to focus more on 
+          fund-raising, event-planning, and the club's structure and processes. 
+          Some cool projects we've built since then include
+          a [speaker diarization API](https://github.com/ubclaunchpad/minutes),
           a [self-hosted continuous deployment tool](https://github.com/ubclaunchpad/inertia),
           and a [collaborative Etch-a-Sketch](https://github.com/ubclaunchpad/etch.io).`,
       },
@@ -150,8 +154,8 @@ export default {
         description: `TEDxUBC is an independently organized TED event. I gave
           a talk titled _Cat Ownership in the 21st Century_ about the story of
           CryptoKitties. I discussed how blockchain technology can be used to
-          solve problems of digital ownership, and its potential applications
-          almost everywhere we use computers to store data.`,
+          solve problems of digital ownership, create new asset classes, and 
+          incentivize more open digital spaces.`,
       },
       {
         name: 'ETHWaterloo',
@@ -160,8 +164,7 @@ export default {
         emoji: '🔨',
         date: Moment('2017-10-15', DATE_F),
         description: `ETHWaterloo was the world's largest Ethereum hackathon,
-          with over 400 participants. My team
-          [won](https://www.newswire.ca/news-releases/cats-invade-worlds-largest-ethereum-hackathon-651263343.html)
+          with over 400 participants. My team was one of 8 [winners](https://www.newswire.ca/news-releases/cats-invade-worlds-largest-ethereum-hackathon-651263343.html)
           with [Rufflet](https://rufflet.cryptokitties.co/), a Mixpanel-style
           analytics tool for smart contracts. At the same time we were
           polishing off the beta version of CryptoKitties and releasing it for
@@ -177,11 +180,11 @@ export default {
           start: Moment('2017-06', MONTH_F),
           end: Moment('2017-08', MONTH_F),
         },
-        description: `Rocket is a Slack bot I built to improve onboading and
+        description: `Rocket is a Slack bot I built to help with onboarding and
           project management at [Launch Pad](https://ubclaunchpad.com).
           New members add their information by talking to Rocket in Slack.
           From there, Rocket automatically updates our website roster, adds
-          them to our GitHub organization, and allows team leads to manage
+          members to our GitHub organization, and allows team leads to manage
           access to our various resources.`,
       },
       {
@@ -205,24 +208,8 @@ export default {
         url: 'https://github.com/flashmob/go-guerrilla',
         emoji: '✉️',
         description: `Guerrilla is an open-source, extensible SMTP mail server
-          written in Go. I developed a real-time analytics dashboard for
-          monitoring mail traffic and helped modularize the package to make it
-          reusable as a component of other projects.`,
-      },
-      {
-        name: 'Eight Solutions',
-        subheader: 'Data visualizing',
-        date: {
-          start: Moment('2016-01', MONTH_F),
-          end: Moment('2016-12', MONTH_F),
-        },
-        url: 'https://eightsolutions.com',
-        emoji: '📈',
-        description: `I worked on the [Cumul8](https://cumul8.com/) project of
-          Eight Solutions during an intership between years of my
-          degree. There I worked on building custom data visualization
-          dashboards and developing a system for automatically summarizing and
-          finding potentially interesting patterns in arbitrary datasets.`,
+          written in Go. My main contribution was implementing an analytics 
+          dashboard for monitoring mail traffic.`,
       },
       {
         name: 'The Ubyssey',
@@ -234,10 +221,9 @@ export default {
         url: 'https://ubyssey.ca',
         emoji: '📰',
         description: `The Ubyssey is UBC's student newspaper and the largest
-          student newspaper in Western Canada. While working there I helped
-          build [Dispatch](https://github.com/ubyssey/dispatch), the
-          open-source publishing platform that powers
-          [ubyssey.ca](https://ubyssey.ca).`,
+          student newspaper in Western Canada. While working there I contributed
+          to [Dispatch](https://github.com/ubyssey/dispatch), the open-source 
+          publishing platform that powers[ubyssey.ca](https://ubyssey.ca).`,
       },
     ],
     minor: [
@@ -272,6 +258,18 @@ export default {
           'https://docs.google.com/presentation/d/1eHXmA_mMeKXemRjTf7ty3h7HCDNUpbJrDxvKmvvZwh0/edit?usp=sharing',
         description: `I presented an interactive workshop at BizHacks 2016
           introducing non-technical students to modern web development tools.`,
+      },
+      {
+        name: 'Education',
+        subheader: '',
+        url: 'https://ubc.ca',
+        emoji: '🎓',
+        date: {
+          start: Moment('2013-09', MONTH_F),
+          end: Moment('2018-04', MONTH_F),
+        },
+        description: `Between 2013-2018, I completed a Bachelors of Applied Science
+          in Computer Engineering at UBC in Vancouver.`,
       },
     ],
   },
