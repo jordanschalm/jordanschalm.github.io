@@ -1,6 +1,6 @@
 {
-  "name": "jordan-schalm-site",
-  "description": "Jordan Schalm's Personal Website",
+  "name": "jordanschalm.com",
+  "description": "Jordan's Personal Website",
   "version": "1.0.0",
   "author": "Jordan Schalm <jordan.schalm@gmail.com>",
   "dependencies": {
@@ -11,7 +11,11 @@
     "react-helmet": "^5.2.0",
     "react-markdown": "^3.3.0"
   },
-  "keywords": ["jordan schalm", "personal site", "portfolio"],
+  "keywords": [
+    "jordan schalm",
+    "personal site",
+    "portfolio"
+  ],
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
