@@ -4,27 +4,29 @@ const DATE_F = 'YYYY-MM-DD'
 const MONTH_F = 'YYY-MM'
 
 export default {
-  projects: {
+  jobs: {
     current: [
       {
         name: 'Dapper Labs',
-        subheader: 'Senior Software Engineer',
+        subheader: 'Software Engineer',
         url: 'https://dapperlabs.com',
         emoji: '🧪',
         date: {
           start: Moment('2018-04', MONTH_F),
         },
-        description: `Dapper Labs uses the power of play to deliver
-          blockchain-based experiences that are ready for the real world.
-          We aim to bring the benefits of decentralization to the first 
-          billion consumers through the power of play, fairness, and true
-          ownership.`,
+        description: `I work with the [Flow]() blockchain team at Dapper Labs. Previously I
+          helped build [Dapper]() and [CryptoKitties]().`,
       },
+    ],
+    older: []
+  },
+  projects: {
+    current: [
       {
         name: 'Flow',
         subheader: 'Open Worlds',
         url: 'https://withflow.org',
-        emoji: '💦',
+        emoji: '🌊',
         date: {
           start: Moment('2019-10'),
         },
@@ -61,7 +63,7 @@ export default {
       },
       {
         name: 'CryptoKitties',
-        subheader: 'Co-Creator',
+        subheader: 'Meow',
         url: 'https://cryptokitties.co',
         emoji: '🐈',
         date: {
@@ -70,10 +72,10 @@ export default {
         },
         description: `CryptoKitties is the world's furriest blockchain experience.
           It defined the [standard for non-fungible tokens](https://www.youtube.com/channel/UCfF9ZO8Ug4xk_AJd4aeT5HA/playlists)
-          and has generated over $25M in P2P sales. I built the
-          [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs)
-          for the P2P auction system of the final game and helped to model kitty
-          population and genetic mechanics. CrypoKitties has been covered in the
+          and created a bustling cat-centred economy with over $25M in peer-to-peer transactions. 
+          I built the [smart contracts](https://www.gettoby.com/p/448v6x9p6tgs)
+          for the P2P auction system, among other things. 
+           CrypoKitties has been covered in the
           [BBC](http://www.bbc.com/news/technology-42237162),
           [New York Times](https://www.nytimes.com/2017/12/28/style/cryptokitties-want-a-blockchain-snuggle.html),
           [Wall Street Journal](https://blogs.wsj.com/cio/2017/12/07/ethereum-network-copes-with-surge-of-activity-as-virtual-kitten-game-goes-viral/),
@@ -104,22 +106,22 @@ export default {
           end: Moment('2018-04', MONTH_F),
         },
         description: `Axiom Zen is a venture studio based in Vancouver, Canada.
-          I worked on several projects, including
+          I worked on several projects as an intern, including
           [Toby](https://www.gettoby.com/), an indispensable tab-taming Chrome
           extension, and [CryptoKitties](https://cryptokitties.co), the world's
           furriest blockchain game.`
       },
       {
-        name: 'BASc Computer Engineering',
-        subheader: 'Learning',
+        name: 'Education',
+        subheader: 'we don\'t need no',
         url: 'https://ubc.ca',
         emoji: '🎓',
         date: {
           start: Moment('2013-09', MONTH_F),
           end: Moment('2018-04', MONTH_F),
         },
-        description: `In May 2018, I completed a Bachelors of Applied Science
-          in Computer Engineering at the University of British Columbia.`,
+        description: `Between 2013-2018, I completed a Bachelors of Applied Science
+          in Computer Engineering at UBC in Vancouver.`,
       },
       {
         name: 'UBC Launch Pad',

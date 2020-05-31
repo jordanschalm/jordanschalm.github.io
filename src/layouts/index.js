@@ -24,21 +24,6 @@ const TemplateWrapper = ({ children }) => (
         href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab:400,700|Inconsolata:400,700"
         rel="stylesheet"
       />
-      <script>
-        {`
-        (function(f, a, t, h, o, m){
-          a[h]=a[h]||function(){
-            (a[h].q=a[h].q||[]).push(arguments)
-          };
-          o=f.createElement('script'),
-          m=f.getElementsByTagName('script')[0];
-          o.async=1; o.src=t; o.id='fathom-script';
-          m.parentNode.insertBefore(o,m)
-        })(document, window, '//analytics.jordanschalm.com/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'EATNK');
-        fathom('trackPageview');
-        `}
-      </script>
     </Helmet>
     <div className="container">{children()}</div>
   </div>
